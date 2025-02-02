@@ -1,0 +1,21 @@
+@keyframes colorChange {
+    0% {
+        color: blue;
+    }
+    25% {
+        color: green;
+    }
+    50% {
+        color: yellow;
+    }
+    75% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
+
+.crazy {
+    animation: colorChange 1s linear infinite;
+}
